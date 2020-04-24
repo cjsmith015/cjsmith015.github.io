@@ -7,12 +7,21 @@
     {% feed_meta %}
     {% seo %}
   </head>
+
   <body>
-    <div id="nav" style="position: fixed;"></div>
+    <div id="sidebar" style="position: fixed;">
+      <div class="outernav">
+        {% include navigation.html %}
+      </div>
+    </div>
 
     <div id="main" style="position: absolute">
-      {% include navigation.html %}
-      {% include content.html %}
+      {% include header.html %}
+      {% include about.html %}
+      {% include experience.html %}
+      {% include contact.html %}
+      {% include footer.html %}
     </div>
+
   </body>
 </html>
