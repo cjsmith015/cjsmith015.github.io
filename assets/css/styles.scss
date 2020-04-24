@@ -1,4 +1,89 @@
 ---
 ---
-@import "main";
+body {
+	background:#F1F1F1;
+	color: #666666;
+	font: 12px verdana;
+	line-height: 200%;
+}
 
+#main {
+	top: 100px;
+	left: 50%;
+	margin-left: -175px;
+	z-index: 9;
+}
+
+#sidebar {
+    background: fixed repeat top left url("../images/nav_bg.jpg");
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    border-style: solid hidden solid hidden;
+    border-width: 3px;
+    border-color: #dbdbdb;
+    padding: 30px;
+}
+
+.outernav {
+    margin-left: 50%;
+}
+
+.nav {
+	background: white;
+	width: 170px;
+	padding: 30px 40px 30px 30px;
+	margin: 0px;
+	text-align: justify;
+	margin-left: -500px;
+}
+
+.nav a {
+	display: block;
+	text-transform: uppercase;
+	width: 100%;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 8px 5px;
+	text-align: right;
+	font: 9px verdana !important;
+}
+
+.nav a b {
+	display: none;
+	font-weight: normal;
+}
+
+.nav a:hover b {
+	display: inline;
+}
+
+.nav img {
+	width: 180px;
+	height: auto;
+}
+
+.box {
+    background: white;
+    width: 600px;
+    padding: 40px;
+    margin-bottom: 55px;
+    text-align: left;
+}
+
+b {
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+a {
+	color: #333 !important;
+	font: 9px verdana !important;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+a:hover {
+	color: #666 !important;
+}
