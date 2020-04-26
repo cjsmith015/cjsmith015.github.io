@@ -1,4 +1,4 @@
-body { background: #F1F1F1; color: #666666; font: 12px verdana; line-height: 200%; }
+body { background: #F1F1F1; color: #666666; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif; line-height: 150%; text-align: left; }
 
 #main { top: 100px; left: 50%; margin-left: -175px; z-index: 9; }
 
@@ -6,22 +6,32 @@ body { background: #F1F1F1; color: #666666; font: 12px verdana; line-height: 200
 
 .outernav { margin-left: 50%; }
 
-.nav { background: white; width: 170px; padding: 30px 40px 30px 30px; margin: 0px; text-align: justify; margin-left: -500px; }
-
-.nav a { display: block; text-transform: uppercase; width: 100%; border-bottom: 1px solid #EBEBEB; padding: 8px 5px; text-align: right; font: 9px verdana !important; }
-
-.nav a b { display: none; font-weight: normal; }
-
-.nav a:hover b { display: inline; }
-
-.nav img { width: 180px; height: auto; }
+.nav { background: white; width: 170px; padding: 25px 30px 25px 30px; margin: 0px; text-align: justify; margin-left: -500px; }
 
 .box { background: white; width: 600px; padding: 40px; margin-bottom: 55px; text-align: left; }
 
-b { font-weight: normal; letter-spacing: 1px; color: #333; }
+.nav, .box { border: 1px solid #666; }
 
-a { color: #333 !important; font: 9px verdana !important; text-decoration: none; letter-spacing: 1px; }
+h1 { color: #555; font-family: Georgia, "Bitstream Charter", "URW Bookman L", serif; font-size: 30px; font-weight: 500; text-align: left; padding: 0px; text-transform: uppercase; line-height: 100%; margin: 0px; }
+
+h2 { color: #999; font-family: monospace; font-size: 12px; font-weight: normal; text-align: left; padding: 0px; text-transform: uppercase; line-height: 100%; margin: 3px 0px 15px 40px; }
+
+h3 { border-bottom: 1px solid #ddd; color: #333 !important; font: 15px verdana !important; text-decoration: none; text-transform: uppercase; display: block; text-align: right; padding: 0px 5px 2px 5px; margin-bottom: 13px; }
+
+h4 { margin: auto; padding: 5px 10px; margin-bottom: 10px; color: white; display: block; text-transform: lowercase; width: 300px; text-align: center; font-family: georgia; font-style: italic; font-weight: 800; font-size: 16px; background: #bebb9a; border-radius: 15px; border: 1px solid #666666; }
+
+b { font-weight: bold; color: #333; }
+
+a { color: #807d67 !important; font-weight: bold; text-decoration: none; letter-spacing: 1px; }
 
 a:hover { color: #666 !important; }
+
+.nav a { display: block; font-size: 12px; font-family: Georgia, "Bitstream Charter", "URW Bookman L", serif; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; width: 100%; border-bottom: 1px solid #EBEBEB; padding: 3px 3px; text-align: right; }
+
+.nav a b { display: none; font-weight: bold; }
+
+.nav a:hover b { display: inline; font-weight: boldest; }
+
+.nav img { width: 180px; height: auto; }
 
 /*# sourceMappingURL=styles.css.map */
